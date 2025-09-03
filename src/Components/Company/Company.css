@@ -1,0 +1,30 @@
+.company{
+    margin: 80px auto;
+    width : 90%;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.team img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+/* ----------media query--------- */
+
+@media (max-width: 800px){
+   .team{
+    flex-wrap: wrap;
+   }
+
+   .team img{
+    width: 48%;
+    margin-bottom: 25px;
+   }
+}
